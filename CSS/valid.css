@@ -1,0 +1,24 @@
+#mydiv{
+    display: flex;
+    justify-content: center;
+}
+#mydiv2{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    background-color: #2793d2;
+    height: 40px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: ;
+}
+a{
+    color: #fff;
+}

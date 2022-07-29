@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+header>ul {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  header{
+    display: flex;
+  }
+
+  #logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 70px;
+    /* background-color: antiquewhite; */
+}
+#logodiv{
+    display: flex;
+    width: min-content;
+    width: 60%;
+}
+#logoh1{
+    font-size: 45px;
+    color: #e8c573;
+}
+#lspan{
+    font-size: 25px;
+    color: #f2d280;
+}
+#limg{
+    width: 60px;
+    margin-right: -7px;
+    display: inline;
+    align-items: center;
+    justify-content: flex-start;
+}
+  li {
+    float: right;
+  }
+
+  header ul li a{
+    font-size: 18px;
+    padding: 8px 20px;
+    margin: 0 6px;
+    color: white;
+}
+header ul li a:hover{
+        color:#f2d280;
+    }
+img {
+    max-width: 100%;
+}
+
+.products{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));;
+    grid-gap: 3em;
+}
+.products img:hover{
+    transform: rotate(360deg);
+    transform-style: preserve-3d;
+    transition-duration: 2;
+}
+.main{
+
+       width: 100%;
+        height: 100%;
+        position: relative;
+        background: url("../Images/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+#Proh1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 34px;
+    color: rgba(255, 255, 255, 0.829);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.products p{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 25px;
+}
+.products h3{
+    color: #e8c573;
+}
+button{
+    font-weight: 500;
+    border: 1px solid #f2d280;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 24px;
+    font-family:'Roboto', sans-serif;
+    padding: 7px 25px;
+    border-radius: 25px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin: 3px;
+}
+button:hover{
+    background: linear-gradient(#e5d6b2 , #e8c573 );
+    border: 3px solid #544115;
+    color: black;
+    margin: 0;
+}
